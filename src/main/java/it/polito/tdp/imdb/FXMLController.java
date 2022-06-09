@@ -114,7 +114,7 @@ public class FXMLController {
         	txtResult.appendText(""+d.getFirstName()+" "+ d.getLastName()+ "\n");
         }
 
-       // txtResult.appendText("# Totale attori condivisi: " + this.model.getTotAttoriCondivisi(regista, c));
+       //txtResult.appendText("# Totale attori condivisi: " + this.model.getTotAttoriCondivisi(regista, c));
     }
 
     @FXML // This method is called by the FXMLLoader when initialization is complete

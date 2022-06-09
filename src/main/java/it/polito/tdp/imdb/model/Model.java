@@ -133,13 +133,13 @@ public class Model {
 		
 	}
 	
-	public int getTotAttoriCondivisi(Director director, int c) {
+	/*public int getTotAttoriCondivisi(Director director, int c) {
 		List<Director> migliore = trovaPercorso(director, c);
 		int tot = 0;
 		for(Director d: migliore) {
 			tot+= this.grafo.getEdgeWeight(this.grafo.getEdge(d, director));
 		}
 		return tot;
-	}
+	}*/
 	
 }
