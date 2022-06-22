@@ -1,14 +1,14 @@
 package it.polito.tdp.imdb.model;
 
 public class RegistaAttoriCondivisi {
-
-	Director d;
-	private int nAttoriCondivisi;
 	
-	public RegistaAttoriCondivisi(Director d, int nAttoriCondivisi) {
+	private Director d;
+	private Integer attoriCondivisi;
+	
+	public RegistaAttoriCondivisi(Director d, Integer attoriCondivisi) {
 		super();
 		this.d = d;
-		this.nAttoriCondivisi = nAttoriCondivisi;
+		this.attoriCondivisi = attoriCondivisi;
 	}
 
 	public Director getD() {
@@ -19,19 +19,14 @@ public class RegistaAttoriCondivisi {
 		this.d = d;
 	}
 
-	public int getnAttoriCondivisi() {
-		return nAttoriCondivisi;
+	public Integer getAttoriCondivisi() {
+		return attoriCondivisi;
 	}
 
-	public void setnAttoriCondivisi(int nAttoriCondivisi) {
-		this.nAttoriCondivisi = nAttoriCondivisi;
+	public void setAttoriCondivisi(Integer attoriCondivisi) {
+		this.attoriCondivisi = attoriCondivisi;
 	}
+	
+	
 
-	@Override
-	public String toString() {
-		return d.getFirstName() +" "+ d.getLastName() +" - " +"# attori condivisi: "+ nAttoriCondivisi;
-	}
-	
-	
-	
 }
